@@ -4,6 +4,7 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Shield, Search, Users, AlertTriangle, Cloud, GraduationCap, Database, Settings, FileText, Monitor, Lock, UserCheck } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -152,9 +153,11 @@ const Services = () => {
                       </li>
                     ))}
                   </ul>
-                  <Button className="w-full primary-gradient text-white">
-                    Get Started
-                  </Button>
+                  <Link to="/contact">
+                    <Button className="w-full primary-gradient text-white">
+                      Get Started
+                    </Button>
+                  </Link>
                 </CardContent>
               </Card>
             ))}
@@ -172,12 +175,16 @@ const Services = () => {
             Our experts can design a tailored cybersecurity program that fits your specific requirements and budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="primary-gradient text-white px-8 py-3">
-              Request Custom Quote
-            </Button>
-            <Button size="lg" variant="outline" className="px-8 py-3">
-              Schedule Consultation
-            </Button>
+            <Link to="/contact">
+              <Button size="lg" className="primary-gradient text-white px-8 py-3">
+                Request Custom Quote
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button size="lg" variant="outline" className="px-8 py-3">
+                Schedule Consultation
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

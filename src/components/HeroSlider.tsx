@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import heroCyberReady from '@/assets/hero-cyber-ready.jpg';
 import heroRansomware from '@/assets/hero-ransomware.jpg';
 import heroPentest from '@/assets/hero-pentest.jpg';
@@ -87,12 +88,20 @@ const HeroSlider = () => {
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto fade-in">
                 {slide.description}
               </p>
-              <Button 
-                size="lg" 
-                className="primary-gradient glow-primary text-white font-semibold px-8 py-3 hover:scale-105 transition-transform duration-200"
-              >
-                {slide.cta}
-              </Button>
+              <Link to={
+                slide.cta === "Assess Your Security" ? "/check-breach" :
+                slide.cta === "Learn More" ? "/blog" :
+                slide.cta === "Schedule Test" ? "/contact" :
+                slide.cta === "Start Testing" ? "/services" :
+                slide.cta === "Train Your Team" ? "/services" : "/services"
+              }>
+                <Button 
+                  size="lg" 
+                  className="primary-gradient glow-primary text-white font-semibold px-8 py-3 hover:scale-105 transition-transform duration-200"
+                >
+                  {slide.cta}
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

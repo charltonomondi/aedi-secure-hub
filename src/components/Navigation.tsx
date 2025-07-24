@@ -38,9 +38,11 @@ const Navigation = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button variant="default" className="ml-4">
-                Get Quote
-              </Button>
+              <Link to="/contact">
+                <Button variant="default" className="ml-4">
+                  Get Quote
+                </Button>
+              </Link>
             </div>
           </div>
 
@@ -77,9 +79,11 @@ const Navigation = () => {
               </Link>
             ))}
             <div className="px-3 py-2">
-              <Button variant="default" className="w-full">
-                Get Quote
-              </Button>
+              <Link to="/contact">
+                <Button variant="default" className="w-full">
+                  Get Quote
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

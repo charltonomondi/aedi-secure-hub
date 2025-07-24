@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { CheckCircle, Users, Award, Clock } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   return (
@@ -44,9 +45,11 @@ const Index = () => {
                   <span className="text-sm">Incident Response</span>
                 </div>
               </div>
-              <Button size="lg" className="primary-gradient text-white">
-                Learn More About Us
-              </Button>
+              <Link to="/about">
+                <Button size="lg" className="primary-gradient text-white">
+                  Learn More About Us
+                </Button>
+              </Link>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <Card className="shadow-card">
@@ -94,12 +97,16 @@ const Index = () => {
             Get a free cybersecurity assessment and discover how we can protect your organization
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="px-8 py-3">
-              Free Security Assessment
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-cyber-dark px-8 py-3">
-              Contact Our Experts
-            </Button>
+            <Link to="/contact">
+              <Button size="lg" variant="secondary" className="px-8 py-3">
+                Free Security Assessment
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-cyber-dark px-8 py-3">
+                Contact Our Experts
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

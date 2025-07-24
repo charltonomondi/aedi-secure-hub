@@ -7,6 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -296,12 +297,16 @@ const Contact = () => {
             Don't wait for a cyber attack. Contact us today for a free security consultation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="px-8 py-3">
-              Free Security Assessment
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-cyber-dark px-8 py-3">
-              Call Now: +254 700 000 000
-            </Button>
+            <Link to="/check-breach">
+              <Button size="lg" variant="secondary" className="px-8 py-3">
+                Free Security Assessment
+              </Button>
+            </Link>
+            <a href="tel:+254700000000">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-cyber-dark px-8 py-3">
+                Call Now: +254 700 000 000
+              </Button>
+            </a>
           </div>
         </div>
       </section>

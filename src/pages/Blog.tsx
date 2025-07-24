@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Calendar, User, ArrowRight, Search, Filter } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const blogPosts = [
   {
@@ -120,9 +121,11 @@ const Blog = () => {
                           <User className="h-4 w-4 mr-1" />
                           <span className="text-sm text-muted-foreground">{post.author}</span>
                         </div>
-                        <Button variant="outline" size="sm">
-                          Read More <ArrowRight className="h-4 w-4 ml-1" />
-                        </Button>
+                        <Link to={`/blog/${post.id}`}>
+                          <Button variant="outline" size="sm">
+                            Read More <ArrowRight className="h-4 w-4 ml-1" />
+                          </Button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -161,9 +164,11 @@ const Blog = () => {
                           <User className="h-4 w-4 mr-1" />
                           <span className="text-sm text-muted-foreground">{post.author}</span>
                         </div>
-                        <Button variant="outline" size="sm">
-                          Read More
-                        </Button>
+                        <Link to={`/blog/${post.id}`}>
+                          <Button variant="outline" size="sm">
+                            Read More
+                          </Button>
+                        </Link>
                       </div>
                     </CardContent>
                   </Card>

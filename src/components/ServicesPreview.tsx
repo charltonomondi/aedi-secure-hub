@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Shield, Search, Users, AlertTriangle, Cloud, GraduationCap } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -67,9 +68,11 @@ const ServicesPreview = () => {
               <CardContent>
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-primary">{service.price}</span>
-                  <Button variant="outline" size="sm">
-                    Learn More
-                  </Button>
+                  <Link to="/services">
+                    <Button variant="outline" size="sm">
+                      Learn More
+                    </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
@@ -77,9 +80,11 @@ const ServicesPreview = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" className="primary-gradient text-white px-8 py-3">
-            View All Services
-          </Button>
+          <Link to="/services">
+            <Button size="lg" className="primary-gradient text-white px-8 py-3">
+              View All Services
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
