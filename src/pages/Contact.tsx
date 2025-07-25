@@ -153,8 +153,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Office Address</h3>
                       <p className="text-muted-foreground">
-                        Westlands Business Center<br />
-                        Waiyaki Way, Westlands<br />
+                        1st floor, Park Place, 2nd Avenue<br /> 
+                        Parklands off Limuru Road<br />
                         Nairobi, Kenya
                       </p>
                     </div>
@@ -165,8 +165,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Phone Numbers</h3>
                       <p className="text-muted-foreground">
-                        Main: +254 700 000 000<br />
-                        Emergency: +254 701 000 000
+                        Main: 254 714 796 254<br />
+                        Emergency: +254 743 141 928<br />
+                        <span className="text-primary font-medium">Available 24/7</span>
                       </p>
                     </div>
                   </div>
@@ -198,6 +199,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
+              
               {/* Google Map */}
               <Card className="card-gradient shadow-card overflow-hidden">
                 <CardHeader>
@@ -206,7 +208,7 @@ const Contact = () => {
                 <CardContent className="p-0">
                   <div className="w-full h-64 bg-cyber-light flex items-center justify-center">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819592798!2d36.79698731475467!3d-1.2630851990627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f172c27c6f0eb%3A0x3aee28d32dfc0e5e!2sWestlands%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1642678901234!5m2!1sen!2ske"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5025.634092892529!2d36.81989077720169!3d-1.263233300824516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17003e0581e3%3A0xdf7b39f091042630!2sPark%20Place%20Building!5e0!3m2!1sen!2snl!4v1753377791030!5m2!1sen!2snl"
                       width="100%"
                       height="256"
                       style={{ border: 0 }}
@@ -302,9 +304,9 @@ const Contact = () => {
                 Free Security Assessment
               </Button>
             </Link>
-            <a href="tel:+254700000000">
+            <a href="tel:+254 714 796 254">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-cyber-dark px-8 py-3">
-                Call Now: +254 700 000 000
+                Call Now: +254 714 796 254
               </Button>
             </a>
           </div>

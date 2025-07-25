@@ -6,42 +6,45 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Calendar, User, ArrowRight, Search, Filter } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import hacker from '@/assets/hacker.jpeg';
+import WhatsApp from '@/assets/Whatsapp.png';
+import cyber from '@/assets/cyber.png';
 
 const blogPosts = [
   {
     id: 1,
-    title: "Ransomware Attacks Surge 40% in East Africa: How to Protect Your Business",
-    excerpt: "Recent data shows a significant increase in ransomware attacks targeting businesses across Kenya and East Africa. Learn the essential steps to protect your organization.",
-    author: "Sarah Kiprotich",
-    date: "January 15, 2024",
+    title: "Vulnerability haunts over a million Kenyan Businesses, more could be at risk!",
+    excerpt: "Kenya’s Business Registration Service (BRS) experienced a significant cyberattack on the night of 31 January 2025, resulting in a data breach that exposed sensitive information.",
+    author: "Afrensics Security",
+    date: "February 25, 2025",
     category: "Threats",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=250&fit=crop",
+    image: hacker,
     featured: true
   },
   {
     id: 2,
-    title: "New DPA 2019 Compliance Requirements: What Your Business Needs to Know",
-    excerpt: "Kenya's Data Protection Act 2019 enforcement is intensifying. Ensure your business meets all compliance requirements with our comprehensive guide.",
-    author: "Grace Wanjiku",
-    date: "January 12, 2024",
+    title: "Bugs target mobile money in WhatsApp attacks ",
+    excerpt: "Users of WhatsApp, one of the most popular messaging platforms globally, have faced various vulnerabilities in recent years, affecting users worldwide, like the zero-click, no-interaction required hacking attack acknowledged by Meta this year. ",
+    author: "Afrensics Security",
+    date: "May 26, 2025",
     category: "Tips",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop"
+    image: WhatsApp,
   },
   {
     id: 3,
-    title: "Case Study: How We Prevented a Million-Dollar Cyber Attack",
-    excerpt: "Discover how our proactive security measures and rapid incident response helped a Nairobi-based financial firm avoid a devastating cyber attack.",
-    author: "David Mwangi",
-    date: "January 10, 2024",
-    category: "Breaches",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=250&fit=crop"
+    title: "May 2025 Africa Cyber Incidents and Responses",
+    excerpt: "The state-owned Commercial Bank of Ethiopia (CBE), which has denied losing $51m from its internal account. The Addis Standard news website reported on 29 May that an attempted fraud was thwarted within minutes. ",
+    author: "Afrensics Security",
+    date: "May 30, 2025",
+    category: "Trends",
+    image: cyber,
   },
   {
     id: 4,
     title: "Cloud Security Best Practices for Kenyan SMEs",
     excerpt: "Small and medium enterprises are increasingly moving to the cloud. Here's how to ensure your cloud infrastructure remains secure and compliant.",
-    author: "Peter Ochieng",
-    date: "January 8, 2024",
+    author: "",
+    date: "Coming Soon",
     category: "Tips",
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop"
   },
@@ -49,8 +52,8 @@ const blogPosts = [
     id: 5,
     title: "Phishing Attacks Target Mobile Banking Users in Kenya",
     excerpt: "Mobile money and banking users are facing sophisticated phishing attacks. Learn how to identify and avoid these dangerous scams.",
-    author: "Sarah Kiprotich",
-    date: "January 5, 2024",
+    author: "",
+    date: "Coming Soon",
     category: "Threats",
     image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=250&fit=crop"
   },
@@ -58,8 +61,8 @@ const blogPosts = [
     id: 6,
     title: "The Rise of AI in Cybersecurity: Opportunities and Challenges",
     excerpt: "Artificial Intelligence is transforming cybersecurity. Explore how AI is being used to enhance security and the new challenges it brings.",
-    author: "David Mwangi",
-    date: "January 3, 2024",
+    author: "",
+    date: "Coming Soon",
     category: "Trends",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop"
   }

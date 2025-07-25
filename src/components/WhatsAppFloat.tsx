@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hi! I'm interested in AEDI Security's cybersecurity services. Can you help me?");
-    const phoneNumber = "254700000000"; // Replace with actual AEDI Security WhatsApp number
+    const phoneNumber = "254714796254"; 
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 

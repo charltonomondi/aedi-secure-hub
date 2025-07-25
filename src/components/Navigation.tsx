@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Shield } from 'lucide-react';
+import aediLogo from '@/assets/favicon_logo/aedi.jpeg'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,8 +22,12 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <Shield className="h-8 w-8 text-primary mr-2" />
-              <span className="font-bold text-xl text-foreground">AEDI Security</span>
+              <img
+                src={aediLogo}
+                alt="Logo"
+                className="h-16 w-16 mr-4"
+              />
+              <span className="font-bold text-xl text-foreground">AFRENSICS SECURITY LTD</span>
             </Link>
           </div>
 

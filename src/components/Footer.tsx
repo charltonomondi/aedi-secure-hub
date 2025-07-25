@@ -1,4 +1,6 @@
-import { Shield, Mail, Phone, MapPin, Twitter, Linkedin, Facebook } from 'lucide-react';
+
+import aediLogo from '@/assets/favicon_logo/aedi.jpeg';
+import { Mail, Phone, MapPin, Twitter, Linkedin, Facebook, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,11 +10,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <Shield className="h-8 w-8 text-primary mr-2" />
-              <span className="font-bold text-xl">AEDI Security</span>
+              <img src={aediLogo} alt="Logo" className="h-8 w-8 mr-2 rounded" />
+              <span className="font-bold text-xl">AEDI Security Ltd</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              Leading cybersecurity firm in Kenya, providing comprehensive security solutions 
+              Professional cybersecurity firm in Kenya, providing comprehensive security solutions 
               to protect businesses from evolving digital threats.
             </p>
             <div className="space-y-2">
@@ -22,7 +24,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 text-primary mr-2" />
-                <span className="text-gray-300">+254 700 000 000</span>
+                <span className="text-gray-300">+254 714 796 254</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 text-primary mr-2" />
@@ -52,23 +54,29 @@ const Footer = () => {
               <li><a href="/services#training" className="text-gray-300 hover:text-primary transition-colors">Security Training</a></li>
               <li><a href="/services#incident" className="text-gray-300 hover:text-primary transition-colors">Incident Response</a></li>
               <li><a href="/services#cloud" className="text-gray-300 hover:text-primary transition-colors">Cloud Security</a></li>
+              <li><a href="/services#cloud" className="text-gray-300 hover:text-primary transition-colors">Mobile App Development</a></li>
+              <li><a href="/services#cloud" className="text-gray-300 hover:text-primary transition-colors">Custom Web Applications</a></li>
+              <li><a href="/services#cloud" className="text-gray-300 hover:text-primary transition-colors">AI & Machine Learning Solutions</a></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © 2024 AEDI Security. All rights reserved.
+            © 2024 AEDI Security Ltd. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-300 hover:text-primary transition-colors">
+            <a href="https://x.com/afrensics" className="text-gray-300 hover:text-primary transition-colors">
               <Twitter className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-300 hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/company/aedisecurity/" className="text-gray-300 hover:text-primary transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-300 hover:text-primary transition-colors">
+            <a href="https://www.facebook.com/Afrensics/" className="text-gray-300 hover:text-primary transition-colors">
               <Facebook className="h-5 w-5" />
+            </a>
+            <a href="#" className="text-gray-300 hover:text-primary transition-colors">
+              <Youtube className="h-5 w-5" />
             </a>
           </div>
         </div>
