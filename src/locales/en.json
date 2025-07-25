@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services", 
+    "about": "About Us",
+    "blog": "Blog",
+    "checkBreach": "Check Breach",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "hero": {
+    "title": "Protecting Your Digital Assets",
+    "subtitle": "Advanced cybersecurity solutions for modern businesses",
+    "cta": "Get Protected Now",
+    "learnMore": "Learn More"
+  },
+  "services": {
+    "title": "Our Cybersecurity Services",
+    "subtitle": "Comprehensive security solutions to protect your business from evolving cyber threats",
+    "penetrationTesting": {
+      "title": "Penetration Testing",
+      "description": "Comprehensive security testing to identify vulnerabilities in your systems."
+    },
+    "vulnerabilityAssessment": {
+      "title": "Vulnerability Assessment", 
+      "description": "Automated and manual assessment of your infrastructure's security posture."
+    },
+    "socialEngineering": {
+      "title": "Social Engineering Testing",
+      "description": "Test your team's awareness against phishing and social engineering attacks."
+    },
+    "incidentResponse": {
+      "title": "Incident Response",
+      "description": "24/7 incident response and recovery services to minimize breach impact."
+    },
+    "cloudSecurity": {
+      "title": "Cloud Security Assessment",
+      "description": "Secure your cloud infrastructure with comprehensive security audits."
+    },
+    "securityTraining": {
+      "title": "Security Training",
+      "description": "Cybersecurity awareness training to empower your workforce."
+    },
+    "mobileApp": {
+      "title": "Mobile App Development",
+      "description": "Secure mobile applications with built-in cybersecurity features."
+    },
+    "webDevelopment": {
+      "title": "Custom Web Development",
+      "description": "Secure web applications and platforms tailored to your business needs."
+    },
+    "aiMl": {
+      "title": "AI & Machine Learning Solutions",
+      "description": "Intelligent security solutions powered by artificial intelligence and ML."
+    },
+    "viewAll": "View All Services",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  },
+  "about": {
+    "title": "About AEDI Security",
+    "subtitle": "Leading cybersecurity experts protecting Kenya's digital landscape since 2015",
+    "mission": "Our Mission",
+    "vision": "Our Vision",
+    "promise": "Our Promise",
+    "story": "Our Story",
+    "values": "Our Values",
+    "team": "Meet Our Team",
+    "clients": "Our Clients"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our cybersecurity experts",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "blog": {
+    "title": "Latest Insights",
+    "subtitle": "Stay informed about the latest cybersecurity trends and threats",
+    "readMore": "Read More",
+    "like": "Like",
+    "comment": "Comment",
+    "share": "Share"
+  },
+  "footer": {
+    "description": "Leading cybersecurity firm protecting businesses across East Africa with comprehensive security solutions.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Information",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

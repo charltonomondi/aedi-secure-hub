@@ -1,6 +1,7 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
+import ClientsSection from '@/components/ClientsSection';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Users, Target, Shield, Award, Globe, Heart } from 'lucide-react';
@@ -195,6 +196,9 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      {/* Clients Section */}
+      <ClientsSection />
 
       {/* Team */}
       <section className="py-16 bg-cyber-light">

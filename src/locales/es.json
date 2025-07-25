@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Acerca de",
+    "blog": "Blog",
+    "checkBreach": "Verificar Violaciones",
+    "contact": "Contacto",
+    "getQuote": "Obtener Cotización"
+  },
+  "hero": {
+    "title": "Protegiendo Sus Activos Digitales",
+    "subtitle": "Soluciones avanzadas de ciberseguridad para empresas modernas",
+    "cta": "Protegerse Ahora",
+    "learnMore": "Saber Más"
+  },
+  "services": {
+    "title": "Nuestros Servicios de Ciberseguridad",
+    "subtitle": "Soluciones de seguridad integrales para proteger su empresa de amenazas cibernéticas en evolución",
+    "penetrationTesting": {
+      "title": "Pruebas de Penetración",
+      "description": "Pruebas de seguridad integrales para identificar vulnerabilidades en sus sistemas."
+    },
+    "vulnerabilityAssessment": {
+      "title": "Evaluación de Vulnerabilidades",
+      "description": "Evaluación automatizada y manual de la postura de seguridad de su infraestructura."
+    },
+    "socialEngineering": {
+      "title": "Pruebas de Ingeniería Social",
+      "description": "Pruebe la conciencia de su equipo contra phishing y ataques de ingeniería social."
+    },
+    "incidentResponse": {
+      "title": "Respuesta a Incidentes",
+      "description": "Servicios de respuesta y recuperación de incidentes 24/7 para minimizar el impacto de violaciones."
+    },
+    "cloudSecurity": {
+      "title": "Evaluación de Seguridad en la Nube",
+      "description": "Asegure su infraestructura en la nube con auditorías de seguridad integrales."
+    },
+    "securityTraining": {
+      "title": "Entrenamiento en Seguridad",
+      "description": "Entrenamiento de concientización en ciberseguridad para empoderar a su fuerza laboral."
+    },
+    "mobileApp": {
+      "title": "Desarrollo de Aplicaciones Móviles",
+      "description": "Aplicaciones móviles seguras con características de ciberseguridad integradas."
+    },
+    "webDevelopment": {
+      "title": "Desarrollo Web Personalizado",
+      "description": "Aplicaciones y plataformas web seguras adaptadas a las necesidades de su negocio."
+    },
+    "aiMl": {
+      "title": "Soluciones de IA y Aprendizaje Automático",
+      "description": "Soluciones de seguridad inteligentes impulsadas por inteligencia artificial y ML."
+    },
+    "viewAll": "Ver Todos los Servicios",
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar"
+  },
+  "about": {
+    "title": "Acerca de AEDI Security",
+    "subtitle": "Expertos líderes en ciberseguridad protegiendo el panorama digital de Kenia desde 2015",
+    "mission": "Nuestra Misión",
+    "vision": "Nuestra Visión",
+    "promise": "Nuestra Promesa",
+    "story": "Nuestra Historia",
+    "values": "Nuestros Valores",
+    "team": "Conoce Nuestro Equipo",
+    "clients": "Nuestros Clientes"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Ponte en contacto con nuestros expertos en ciberseguridad",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje"
+  },
+  "blog": {
+    "title": "Últimas Perspectivas",
+    "subtitle": "Manténgase informado sobre las últimas tendencias y amenazas de ciberseguridad",
+    "readMore": "Leer Más",
+    "like": "Me Gusta",
+    "comment": "Comentario",
+    "share": "Compartir"
+  },
+  "footer": {
+    "description": "Empresa líder en ciberseguridad protegiendo empresas en toda África Oriental con soluciones de seguridad integrales.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Información de Contacto",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "services": "サービス",
+    "about": "私たちについて",
+    "blog": "ブログ",
+    "checkBreach": "侵害チェック",
+    "contact": "お問い合わせ",
+    "getQuote": "見積もりを取得"
+  },
+  "hero": {
+    "title": "デジタル資産を保護する",
+    "subtitle": "現代企業向けの高度なサイバーセキュリティソリューション",
+    "cta": "今すぐ保護する",
+    "learnMore": "詳細を見る"
+  },
+  "services": {
+    "title": "私たちのサイバーセキュリティサービス",
+    "subtitle": "進化するサイバー脅威からビジネスを保護する包括的なセキュリティソリューション",
+    "penetrationTesting": {
+      "title": "ペネトレーションテスト",
+      "description": "システムの脆弱性を特定する包括的なセキュリティテスト。"
+    },
+    "vulnerabilityAssessment": {
+      "title": "脆弱性評価",
+      "description": "インフラのセキュリティ態勢の自動化および手動評価。"
+    },
+    "socialEngineering": {
+      "title": "ソーシャルエンジニアリングテスト",
+      "description": "フィッシングやソーシャルエンジニアリング攻撃に対するチームの意識をテスト。"
+    },
+    "incidentResponse": {
+      "title": "インシデント対応",
+      "description": "侵害の影響を最小限に抑える24/7インシデント対応および回復サービス。"
+    },
+    "cloudSecurity": {
+      "title": "クラウドセキュリティ評価",
+      "description": "包括的なセキュリティ監査でクラウドインフラを保護。"
+    },
+    "securityTraining": {
+      "title": "セキュリティトレーニング",
+      "description": "従業員を強化するサイバーセキュリティ意識向上トレーニング。"
+    },
+    "mobileApp": {
+      "title": "モバイルアプリ開発",
+      "description": "サイバーセキュリティ機能を内蔵した安全なモバイルアプリケーション。"
+    },
+    "webDevelopment": {
+      "title": "カスタムWeb開発",
+      "description": "ビジネスニーズに合わせた安全なWebアプリケーションとプラットフォーム。"
+    },
+    "aiMl": {
+      "title": "AI・機械学習ソリューション",
+      "description": "人工知能と機械学習によって動作するインテリジェントセキュリティソリューション。"
+    },
+    "viewAll": "すべてのサービスを見る",
+    "learnMore": "詳細を見る",
+    "getStarted": "始める"
+  },
+  "about": {
+    "title": "AEDI Securityについて",
+    "subtitle": "2015年からケニアのデジタル環境を保護する大手サイバーセキュリティ専門家",
+    "mission": "私たちの使命",
+    "vision": "私たちのビジョン",
+    "promise": "私たちの約束",
+    "story": "私たちの物語",
+    "values": "私たちの価値観",
+    "team": "私たちのチームに会う",
+    "clients": "私たちのクライアント"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "サイバーセキュリティ専門家にお気軽にお問い合わせください",
+    "name": "名前",
+    "email": "メール",
+    "message": "メッセージ",
+    "send": "メッセージを送信"
+  },
+  "blog": {
+    "title": "最新の洞察",
+    "subtitle": "最新のサイバーセキュリティトレンドと脅威について最新情報を入手",
+    "readMore": "続きを読む",
+    "like": "いいね",
+    "comment": "コメント",
+    "share": "シェア"
+  },
+  "footer": {
+    "description": "包括的なセキュリティソリューションで東アフリカ全域の企業を保護する大手サイバーセキュリティ会社。",
+    "quickLinks": "クイックリンク",
+    "services": "サービス",
+    "contact": "連絡先情報",
+    "followUs": "フォローする",
+    "rights": "すべての権利を保有。"
+  }
+}

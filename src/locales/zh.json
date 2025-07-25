@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "about": "关于我们",
+    "blog": "博客",
+    "checkBreach": "检查泄露",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "hero": {
+    "title": "保护您的数字资产",
+    "subtitle": "为现代企业提供先进的网络安全解决方案",
+    "cta": "立即获得保护",
+    "learnMore": "了解更多"
+  },
+  "services": {
+    "title": "我们的网络安全服务",
+    "subtitle": "全面的安全解决方案，保护您的企业免受不断演变的网络威胁",
+    "penetrationTesting": {
+      "title": "渗透测试",
+      "description": "全面的安全测试，识别您系统中的漏洞。"
+    },
+    "vulnerabilityAssessment": {
+      "title": "漏洞评估",
+      "description": "对您基础设施安全状况的自动化和手动评估。"
+    },
+    "socialEngineering": {
+      "title": "社会工程测试",
+      "description": "测试您团队对钓鱼和社会工程攻击的意识。"
+    },
+    "incidentResponse": {
+      "title": "事件响应",
+      "description": "24/7事件响应和恢复服务，最大限度地减少违规影响。"
+    },
+    "cloudSecurity": {
+      "title": "云安全评估",
+      "description": "通过全面的安全审计保护您的云基础设施。"
+    },
+    "securityTraining": {
+      "title": "安全培训",
+      "description": "网络安全意识培训，赋能您的员工。"
+    },
+    "mobileApp": {
+      "title": "移动应用开发",
+      "description": "具有内置网络安全功能的安全移动应用。"
+    },
+    "webDevelopment": {
+      "title": "定制网站开发",
+      "description": "根据您的业务需求定制的安全网络应用和平台。"
+    },
+    "aiMl": {
+      "title": "AI和机器学习解决方案",
+      "description": "由人工智能和机器学习驱动的智能安全解决方案。"
+    },
+    "viewAll": "查看所有服务",
+    "learnMore": "了解更多",
+    "getStarted": "开始"
+  },
+  "about": {
+    "title": "关于AEDI Security",
+    "subtitle": "自2015年以来保护肯尼亚数字环境的领先网络安全专家",
+    "mission": "我们的使命",
+    "vision": "我们的愿景",
+    "promise": "我们的承诺",
+    "story": "我们的故事",
+    "values": "我们的价值观",
+    "team": "认识我们的团队",
+    "clients": "我们的客户"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "与我们的网络安全专家取得联系",
+    "name": "姓名",
+    "email": "电子邮件",
+    "message": "消息",
+    "send": "发送消息"
+  },
+  "blog": {
+    "title": "最新见解",
+    "subtitle": "了解最新的网络安全趋势和威胁",
+    "readMore": "阅读更多",
+    "like": "喜欢",
+    "comment": "评论",
+    "share": "分享"
+  },
+  "footer": {
+    "description": "领先的网络安全公司，通过全面的安全解决方案保护东非各地的企业。",
+    "quickLinks": "快速链接",
+    "services": "服务",
+    "contact": "联系信息",
+    "followUs": "关注我们",
+    "rights": "版权所有。"
+  }
+}

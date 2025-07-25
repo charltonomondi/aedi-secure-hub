@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Shield, Search, Users, AlertTriangle, Cloud, GraduationCap, Database, Settings, FileText, Monitor, Lock, UserCheck } from 'lucide-react';
+import { Shield, Search, Users, AlertTriangle, Cloud, GraduationCap, Database, Settings, FileText, Monitor, Lock, UserCheck, Smartphone, Code, Brain } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const services = [
@@ -102,6 +102,30 @@ const services = [
     features: ["Readiness Testing", "Gap Analysis", "Playbook Review", "Team Assessment", "Improvement Plan"],
     startingPrice: "$2,500",
     popular: false
+  },
+  {
+    icon: <Smartphone className="h-12 w-12 text-primary" />,
+    title: "Mobile App Development",
+    description: "Secure mobile applications with built-in cybersecurity features and robust data protection.",
+    features: ["iOS & Android Development", "Security-First Architecture", "API Integration", "Real-time Monitoring", "Compliance Ready"],
+    startingPrice: "$10,000",
+    popular: true
+  },
+  {
+    icon: <Code className="h-12 w-12 text-primary" />,
+    title: "Custom Web Development",
+    description: "Secure web applications and platforms tailored to your business needs with modern frameworks.",
+    features: ["Secure Coding Practices", "Modern Frameworks", "Scalable Architecture", "Performance Optimization", "Security Integration"],
+    startingPrice: "$8,000",
+    popular: false
+  },
+  {
+    icon: <Brain className="h-12 w-12 text-primary" />,
+    title: "AI & Machine Learning Solutions",
+    description: "Intelligent security solutions powered by artificial intelligence and machine learning algorithms.",
+    features: ["Threat Detection AI", "Predictive Analytics", "Custom ML Models", "Automated Response", "Advanced Analytics"],
+    startingPrice: "$15,000",
+    popular: true
   }
 ];
 

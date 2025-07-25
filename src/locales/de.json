@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über Uns",
+    "blog": "Blog",
+    "checkBreach": "Verletzung Prüfen",
+    "contact": "Kontakt",
+    "getQuote": "Angebot Anfordern"
+  },
+  "hero": {
+    "title": "Schutz Ihrer Digitalen Assets",
+    "subtitle": "Fortschrittliche Cybersicherheitslösungen für moderne Unternehmen",
+    "cta": "Jetzt Geschützt Werden",
+    "learnMore": "Mehr Erfahren"
+  },
+  "services": {
+    "title": "Unsere Cybersicherheitsdienste",
+    "subtitle": "Umfassende Sicherheitslösungen zum Schutz Ihres Unternehmens vor sich entwickelnden Cyber-Bedrohungen",
+    "penetrationTesting": {
+      "title": "Penetrationstests",
+      "description": "Umfassende Sicherheitstests zur Identifizierung von Schwachstellen in Ihren Systemen."
+    },
+    "vulnerabilityAssessment": {
+      "title": "Schwachstellenbewertung",
+      "description": "Automatisierte und manuelle Bewertung der Sicherheitslage Ihrer Infrastruktur."
+    },
+    "socialEngineering": {
+      "title": "Social Engineering Tests",
+      "description": "Testen Sie das Bewusstsein Ihres Teams gegen Phishing und Social Engineering-Angriffe."
+    },
+    "incidentResponse": {
+      "title": "Incident Response",
+      "description": "24/7 Incident Response und Recovery-Services zur Minimierung von Sicherheitsverletzungen."
+    },
+    "cloudSecurity": {
+      "title": "Cloud-Sicherheitsbewertung",
+      "description": "Sichern Sie Ihre Cloud-Infrastruktur mit umfassenden Sicherheitsaudits."
+    },
+    "securityTraining": {
+      "title": "Sicherheitsschulung",
+      "description": "Cybersicherheits-Awareness-Training zur Stärkung Ihrer Belegschaft."
+    },
+    "mobileApp": {
+      "title": "Mobile App-Entwicklung",
+      "description": "Sichere mobile Anwendungen mit integrierten Cybersicherheitsfeatures."
+    },
+    "webDevelopment": {
+      "title": "Benutzerdefinierte Webentwicklung",
+      "description": "Sichere Webanwendungen und Plattformen, die auf Ihre Geschäftsanforderungen zugeschnitten sind."
+    },
+    "aiMl": {
+      "title": "KI & Machine Learning Lösungen",
+      "description": "Intelligente Sicherheitslösungen, die von künstlicher Intelligenz und ML angetrieben werden."
+    },
+    "viewAll": "Alle Services Anzeigen",
+    "learnMore": "Mehr Erfahren",
+    "getStarted": "Loslegen"
+  },
+  "about": {
+    "title": "Über AEDI Security",
+    "subtitle": "Führende Cybersicherheitsexperten, die Kenias digitale Landschaft seit 2015 schützen",
+    "mission": "Unsere Mission",
+    "vision": "Unsere Vision",
+    "promise": "Unser Versprechen",
+    "story": "Unsere Geschichte",
+    "values": "Unsere Werte",
+    "team": "Lernen Sie Unser Team Kennen",
+    "clients": "Unsere Kunden"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Nehmen Sie Kontakt mit unseren Cybersicherheitsexperten auf",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Nachricht Senden"
+  },
+  "blog": {
+    "title": "Neueste Erkenntnisse",
+    "subtitle": "Bleiben Sie über die neuesten Cybersicherheitstrends und -bedrohungen informiert",
+    "readMore": "Weiterlesen",
+    "like": "Gefällt mir",
+    "comment": "Kommentar",
+    "share": "Teilen"
+  },
+  "footer": {
+    "description": "Führendes Cybersicherheitsunternehmen, das Unternehmen in ganz Ostafrika mit umfassenden Sicherheitslösungen schützt.",
+    "quickLinks": "Schnelle Links",
+    "services": "Dienstleistungen",
+    "contact": "Kontaktinformationen",
+    "followUs": "Folgen Sie Uns",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

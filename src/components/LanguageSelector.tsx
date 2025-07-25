@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { 
   DropdownMenu, 
@@ -25,12 +26,11 @@ const languages = [
 ];
 
 const LanguageSelector = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
+  const { i18n } = useTranslation();
+  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
 
   const handleLanguageChange = (language: typeof languages[0]) => {
-    setSelectedLanguage(language);
-    // Here you would implement actual language change logic
-    console.log('Language changed to:', language.code);
+    i18n.changeLanguage(language.code);
   };
 
   return (
@@ -38,8 +38,8 @@ const LanguageSelector = () => {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="gap-2">
           <Globe className="h-4 w-4" />
-          <span className="hidden sm:inline">{selectedLanguage.flag} {selectedLanguage.name}</span>
-          <span className="sm:hidden">{selectedLanguage.flag}</span>
+          <span className="hidden sm:inline">{currentLanguage.flag} {currentLanguage.name}</span>
+          <span className="sm:hidden">{currentLanguage.flag}</span>
           <ChevronDown className="h-4 w-4" />
         </Button>
       </DropdownMenuTrigger>

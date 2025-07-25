@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "services": "Huduma",
+    "about": "Kuhusu Sisi",
+    "blog": "Blogu",
+    "checkBreach": "Angalia Uvunjaji",
+    "contact": "Mawasiliano",
+    "getQuote": "Pata Nukuu"
+  },
+  "hero": {
+    "title": "Kulinda Mali Zako za Kidijitali",
+    "subtitle": "Suluhisho za hali ya juu za usalama wa mtandao kwa biashara za kisasa",
+    "cta": "Pata Ulinzi Sasa",
+    "learnMore": "Jifunze Zaidi"
+  },
+  "services": {
+    "title": "Huduma Zetu za Usalama wa Mtandao",
+    "subtitle": "Suluhisho kamili za usalama kulinda biashara yako dhidi ya vitisho vya mtandao vinavyobadilika",
+    "penetrationTesting": {
+      "title": "Upimaji wa Kupenya",
+      "description": "Upimaji wa kina wa usalama kutambua udhaifu katika mifumo yako."
+    },
+    "vulnerabilityAssessment": {
+      "title": "Tathmini ya Udhaifu",
+      "description": "Tathmini ya kiotomatiki na ya mikono ya hali ya usalama wa miundombinu yako."
+    },
+    "socialEngineering": {
+      "title": "Upimaji wa Uhandisi wa Kijamii",
+      "description": "Pima uelewa wa timu yako dhidi ya phishing na mashambulizi ya uhandisi wa kijamii."
+    },
+    "incidentResponse": {
+      "title": "Majibu ya Tukio",
+      "description": "Huduma za majibu na urejeshaji wa matukio 24/7 kupunguza athari za uvunjaji."
+    },
+    "cloudSecurity": {
+      "title": "Tathmini ya Usalama wa Wingu",
+      "description": "Linda miundombinu yako ya wingu na ukaguzi wa kina wa usalama."
+    },
+    "securityTraining": {
+      "title": "Mafunzo ya Usalama",
+      "description": "Mafunzo ya uelewa wa usalama wa mtandao kuongeza nguvu za wafanyakazi wako."
+    },
+    "mobileApp": {
+      "title": "Maendeleo ya Programu za Simu",
+      "description": "Programu salama za simu zenye vipengele vya usalama wa mtandao."
+    },
+    "webDevelopment": {
+      "title": "Maendeleo ya Wavuti Maalum",
+      "description": "Programu na majukwaa salama ya wavuti yaliyobinafsishwa kwa mahitaji ya biashara yako."
+    },
+    "aiMl": {
+      "title": "Suluhisho za AI na Kujifunza kwa Mashine",
+      "description": "Suluhisho za usalama zenye akili zinazoendeshwa na akili bandia na ML."
+    },
+    "viewAll": "Ona Huduma Zote",
+    "learnMore": "Jifunze Zaidi",
+    "getStarted": "Anza"
+  },
+  "about": {
+    "title": "Kuhusu AEDI Security",
+    "subtitle": "Wataalamu wakuu wa usalama wa mtandao wakilinda mazingira ya kidijitali ya Kenya tangu 2015",
+    "mission": "Dhamira Yetu",
+    "vision": "Maono Yetu",
+    "promise": "Ahadi Yetu",
+    "story": "Hadithi Yetu",
+    "values": "Maadili Yetu",
+    "team": "Kutana na Timu Yetu",
+    "clients": "Wateja Wetu"
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Unganisha na wataalamu wetu wa usalama wa mtandao",
+    "name": "Jina",
+    "email": "Barua Pepe",
+    "message": "Ujumbe",
+    "send": "Tuma Ujumbe"
+  },
+  "blog": {
+    "title": "Maarifa ya Hivi Karibuni",
+    "subtitle": "Jua kuhusu mielekeo na vitisho vya hivi karibuni vya usalama wa mtandao",
+    "readMore": "Soma Zaidi",
+    "like": "Penda",
+    "comment": "Maoni",
+    "share": "Shiriki"
+  },
+  "footer": {
+    "description": "Kampuni ya kwanza ya usalama wa mtandao inayolinda biashara kote Afrika Mashariki kwa suluhisho kamili za usalama.",
+    "quickLinks": "Viungo vya Haraka",
+    "services": "Huduma",
+    "contact": "Maelezo ya Mawasiliano",
+    "followUs": "Tufuate",
+    "rights": "Haki zote zimehifadhiwa."
+  }
+}
