@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Shield } from 'lucide-react';
-import aediLogo from '@/assets/favicon_logo/aedi.jpeg'
+import aediLogo from '@/assets/favicon_logo/aedi.jpeg';
+import LanguageSelector from '@/components/LanguageSelector';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,6 +44,7 @@ const Navigation = () => {
                   {item.name}
                 </Link>
               ))}
+              <LanguageSelector />
               <Link to="/contact">
                 <Button variant="default" className="ml-4">
                   Get Quote
@@ -83,7 +85,8 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <div className="px-3 py-2">
+            <div className="px-3 py-2 space-y-2">
+              <LanguageSelector />
               <Link to="/contact">
                 <Button variant="default" className="w-full">
                   Get Quote

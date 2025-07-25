@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Shield, Search, Users, AlertTriangle, Cloud, GraduationCap } from 'lucide-react';
+import { Shield, Search, Users, AlertTriangle, Cloud, GraduationCap, Smartphone, Code, Brain } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const services = [
@@ -39,6 +39,24 @@ const services = [
     title: "Security Training",
     description: "Cybersecurity awareness training to empower your workforce.",
     price: "From $500"
+  },
+  {
+    icon: <Smartphone className="h-8 w-8 text-primary" />,
+    title: "Mobile App Development",
+    description: "Secure mobile applications with built-in cybersecurity features.",
+    price: "From $10,000"
+  },
+  {
+    icon: <Code className="h-8 w-8 text-primary" />,
+    title: "Custom Web Development",
+    description: "Secure web applications and platforms tailored to your business needs.",
+    price: "From $8,000"
+  },
+  {
+    icon: <Brain className="h-8 w-8 text-primary" />,
+    title: "AI & Machine Learning Solutions",
+    description: "Intelligent security solutions powered by artificial intelligence and ML.",
+    price: "From $15,000"
   }
 ];
 

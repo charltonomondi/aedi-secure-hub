@@ -1,6 +1,7 @@
 import Navigation from '@/components/Navigation';
 import HeroSlider from '@/components/HeroSlider';
 import ServicesPreview from '@/components/ServicesPreview';
+import ClientsSection from '@/components/ClientsSection';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -86,6 +87,8 @@ const Index = () => {
       </section>
 
       <ServicesPreview />
+
+      <ClientsSection />
 
       {/* CTA Section */}
       <section className="py-16 hero-gradient">
